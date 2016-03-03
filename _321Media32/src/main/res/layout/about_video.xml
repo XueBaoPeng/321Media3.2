@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_tab_my"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="@drawable/bg_tab_my" >
+
+        <LinearLayout
+            android:id="@+id/layout_tv"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+            <!--  -->
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/video_detail_bg_title"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@id/btn_logo"
+                    android:layout_width="60dip"
+                    android:layout_height="45dip"
+                    android:layout_centerVertical="true"
+                    android:layout_marginBottom="5dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="5dip"
+                    android:background="@color/common_transparent_color"
+                    android:src="@drawable/selector_video_detail_btn_back" />
+
+                <TextView
+                    android:id="@id/tv_title"
+                    android:layout_width="200dip"
+                    android:layout_height="wrap_content"
+                    android:layout_centerInParent="true"
+                    android:gravity="center_horizontal"
+                    android:singleLine="true"
+                    android:textColor="@color/common_orange_color"
+                    android:textSize="20.0sp" />
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal" >
+
+                <RelativeLayout
+                    android:id="@+id/lin"
+                    android:layout_width="95dip"
+                    android:layout_height="140dip"
+                    android:layout_marginLeft="10dip"
+                    android:layout_marginRight="10dip"
+                    android:layout_marginTop="5dip" >
+
+                    <ImageView
+                        android:id="@id/about_video_image"
+                        android:layout_width="85dip"
+                        android:layout_height="130dip"
+                        android:layout_centerInParent="true" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_vertical"
+                    android:orientation="vertical" >
+
+                    <TextView
+                        android:id="@+id/director"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:gravity="center_vertical"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/craw"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:gravity="center_vertical"
+                        android:maxHeight="80dip"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:id="@+id/area"
+                        android:layout_width="150dip"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="2dip"
+                        android:gravity="center_vertical"
+                        android:maxHeight="80dip"
+                        android:textSize="14sp" />
+
+                     <TextView
+                            android:id="@id/videoPlayButton_history_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dip"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+
+                       <Button
+                           
+                            android:layout_marginTop="3dip"
+                           android:id="@id/videoPlayButton"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:background="@drawable/selector_videodetail_btn_play" />
+
+                       
+                </LinearLayout>
+            </LinearLayout>
+            
+            
+            
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical" >
+
+                <LinearLayout
+                    android:id="@+id/bagpanelpage"
+                    android:layout_width="fill_parent"
+                    android:layout_height="30dip"
+                    android:orientation="horizontal"
+                    android:visibility="gone" >
+                </LinearLayout>
+
+                <RelativeLayout
+                    android:id="@+id/gridview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="150dip"
+                    android:visibility="gone" >
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/changePlayView"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+                </LinearLayout>
+
+                <TextView
+                    android:id="@+id/describeTextview"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/title_text_padding_left"
+                    android:textColor="@color/common_orange_color"
+                    android:textSize="@dimen/common_font_size_18" />
+
+                <TextView
+                    android:id="@+id/describe"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical"
+                    android:paddingLeft="@dimen/title_text_padding_left"
+                    android:textColor="@color/common_white_color"
+                    android:textSize="14sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </RelativeLayout>
+
+</ScrollView>

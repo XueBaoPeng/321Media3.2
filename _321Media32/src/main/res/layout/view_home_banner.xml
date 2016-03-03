@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:paddingTop="1.0dip" android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    
+                <LinearLayout 
+                    	android:background="@color/common_black_color"
+						android:layout_width="fill_parent" 
+						android:layout_height="wrap_content"
+						android:orientation="vertical"
+						
+						>
+						<com.android.filmandtv.ui.widget.GalleryView
+							android:id="@id/newImageGallery" 
+							android:layout_width="fill_parent" 
+							android:gravity="clip_horizontal"
+							android:clipToPadding="true"
+							android:scaleType="fitXY"
+							android:background="@color/common_black_color"
+							android:layout_height="fill_parent" />  
+						 
+				</LinearLayout>  
+                <TextView android:textSize="@dimen/common_font_size_18" android:textColor="@color/common_orange_color" android:gravity="center_vertical" android:background="@drawable/bg_home_title" android:paddingLeft="@dimen/title_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_activity_main_home_today_recommend" />
+                <TextView android:textSize="@dimen/common_font_size_18" android:textColor="@color/common_orange_color" android:gravity="center_vertical" android:background="@drawable/bg_home_title" android:paddingLeft="@dimen/title_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_activity_main_home_hot_video" />
+                 <TextView android:textSize="@dimen/common_font_size_18" android:textColor="@color/common_orange_color" android:gravity="center_vertical" android:background="@drawable/bg_home_title" android:paddingLeft="@dimen/title_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_activity_main_home_hot_video" />
+                 <TextView android:textSize="@dimen/common_font_size_18" android:textColor="@color/common_orange_color" android:gravity="center_vertical" android:background="@drawable/bg_home_title" android:paddingLeft="@dimen/title_text_padding_left" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/title_activity_main_home_hot_video" />
+               
+</LinearLayout>

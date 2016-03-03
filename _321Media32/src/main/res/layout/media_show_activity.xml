@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:orientation="vertical" android:background="@drawable/bg_tab_my"
+    android:layout_width="fill_parent" android:layout_height="fill_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<RelativeLayout 
+     android:background="@drawable/bg_tab_my"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+  > 
+		<LinearLayout android:orientation="vertical" 
+		    android:layout_width="fill_parent" 
+		    android:layout_height="fill_parent"
+		    android:id="@+id/layout_tv"
+		  >
+		  
+		  <!--  -->
+		    <RelativeLayout android:orientation="horizontal"  
+		        android:background="@drawable/video_detail_bg_title" 
+		        android:layout_width="fill_parent" 
+		        android:layout_height="wrap_content">
+		        
+		        
+		            <ImageButton
+		            android:id="@id/btn_logo" 
+		            android:src="@drawable/selector_video_detail_btn_back" 
+		            android:layout_width="60dip" 
+		            android:layout_height="45dip" 
+		            android:background="@color/common_transparent_color" 
+		            android:layout_marginTop="5dip"
+		            android:layout_marginRight="10dip"
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true" /> 
+		        <TextView 
+		            android:textSize="20.0sp" 
+		            android:textColor="@color/common_orange_color" 
+		            android:id="@id/tv_title"  
+		            android:singleLine="true" 
+		            android:gravity="center_horizontal"
+		            android:layout_width="200dip" 
+		            android:layout_height="wrap_content" 
+		            android:layout_centerInParent="true" />
+		        
+		    </RelativeLayout>
+		    <LinearLayout 
+		            android:layout_width="fill_parent" 
+		            android:layout_height="wrap_content" 
+		            android:orientation="horizontal"
+		        >
+		      <RelativeLayout   
+		       	android:id="@+id/lin"
+		        android:layout_marginTop="5dip"
+		        android:layout_marginRight="10dip" 
+		        android:layout_marginLeft="10dip"
+		        android:layout_width="95dip" 
+		        android:layout_height="140dip"  >
+			         <ImageView 
+		            android:layout_width="85dip" 
+		            android:layout_height="130dip" 
+		            android:id="@id/about_video_image"  
+		              android:layout_centerInParent="true"
+		            />
+			    </RelativeLayout>
+		   
+		        <LinearLayout  
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content" 
+		            android:orientation="vertical"
+		            android:layout_gravity="center_vertical" 
+		            >
+		             <TextView 
+		                android:layout_width="150dip" 
+		            	android:layout_height="wrap_content"
+		            	android:id="@+id/director" 
+		            	android:textSize="14sp"
+		            	android:gravity="center_vertical" 
+		                />
+		            <TextView 
+		                android:layout_marginTop="2dip"
+		                android:layout_width="150dip" 
+		            	android:layout_height="wrap_content"
+		            	android:id="@+id/craw"  
+		            	android:maxHeight="80dip"
+		            	android:textSize="14sp"
+		                android:gravity="center_vertical"  
+		                />  
+		             <TextView 
+		                android:layout_marginTop="2dip"
+		                android:layout_width="150dip" 
+		            	android:layout_height="wrap_content"
+		            	android:id="@+id/area"  
+		            	android:maxHeight="80dip"
+		            	android:textSize="14sp"
+		                android:gravity="center_vertical"  
+		                />  
+		                
+                     <TextView
+                            android:id="@id/videoPlayButton_history_text"
+                            android:layout_width="wrap_content"
+                            android:layout_height="35dip"
+                            android:singleLine="true"
+                            android:visibility="gone" />
+		             <Button 
+		                android:layout_marginTop="3dip"
+		                android:layout_width="wrap_content" 
+		            	android:layout_height="wrap_content"
+		            	android:background="@drawable/selector_videodetail_btn_play"
+		            	android:id="@id/videoPlayButton"/>
+		        </LinearLayout>
+		    </LinearLayout>
+		    <LinearLayout 
+		         android:layout_width="fill_parent" 
+		         android:layout_height="wrap_content"
+		         android:orientation="vertical"
+		        >   
+		            <LinearLayout 
+		                android:layout_width="fill_parent"
+						android:layout_height="wrap_content"  
+						android:orientation="horizontal" 
+						android:id="@+id/changePlayView"
+		             > 
+		            </LinearLayout>
+		            
+		           <LinearLayout 
+		                android:layout_width="fill_parent"
+						android:layout_height="wrap_content"  
+						android:layout_marginTop="10dip"
+						android:gravity="center_horizontal"
+						android:id="@+id/linear"
+					    android:background="@drawable/bg_video_detail_website"
+		                > <TextView 
+				               android:textSize="18sp" 
+				               android:textStyle="normal"
+				               android:textColor="@color/common_orange_color"
+				               android:gravity="center_vertical|center_horizontal" 
+				               android:layout_width="100dip"
+				               android:layout_height="wrap_content"  
+				               android:id="@+id/describeTextview" 
+				               />
+		              <TextView 
+				               android:textSize="18sp" 
+				               android:textColor="@color/common_orange_color"
+				               android:textStyle="normal"
+				               android:gravity="center_vertical|center_horizontal" 
+				               android:layout_width="100dip"
+				               android:layout_height="wrap_content"  
+				               android:id="@+id/playListText"
+				               />
+		              
+		           </LinearLayout> 
+		          <LinearLayout   
+		               android:layout_marginTop="10dip"
+		               android:gravity="left"   
+		               android:layout_width="fill_parent"
+		               android:layout_height="wrap_content"  
+		               android:id="@+id/changeView"
+		               android:layout_marginLeft="15dip"
+		               android:layout_marginRight="15dip" 
+		                /> 
+		         
+		    </LinearLayout> 
+		 </LinearLayout> 
+		
+	</RelativeLayout> 	
+</ScrollView>
+ 

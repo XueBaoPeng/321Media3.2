@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+  <LinearLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  android:id = "@+id/havanodata_layout"
+  android:layout_width = "fill_parent"
+  android:layout_height = "fill_parent"
+  android:layout_marginTop = "127dip"
+  android:orientation = "vertical"
+  android:layout_gravity = "center"
+  android:visibility = "gone"
+  android:clickable = "false"
+  >
+  <ImageView
+  android:id = "@+id/nodata_img"
+  android:layout_width = "wrap_content"
+  android:layout_height = "wrap_content"
+  android:layout_marginBottom = "30dip"
+  android:src = "@drawable/nohistorydata"
+  android:layout_gravity = "center"/>
+  
+  <TextView
+  android:id = "@+id/nodat_tv"
+  android:textStyle = "bold"
+  android:layout_width = "wrap_content"
+  android:layout_height = "wrap_content"
+  android:textColor = "@color/white"
+  android:gravity = "center"
+  android:textSize = "20sp"
+  android:layout_gravity = "center"/>
+  </LinearLayout>

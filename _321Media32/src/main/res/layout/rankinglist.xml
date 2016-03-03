@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ 
+	<LinearLayout android:orientation="vertical" 
+	     android:layout_width="fill_parent" android:layout_height="fill_parent"
+	  >
+		   <RelativeLayout 
+		       android:orientation="horizontal" 
+		       android:background="@drawable/video_detail_bg_title" 
+		       android:layout_width="fill_parent" android:layout_height="wrap_content">
+		        <ImageButton
+		            android:id="@id/btn_logo" 
+		            android:src="@drawable/selector_video_detail_btn_back" 
+		            android:layout_width="60dip" 
+		            android:layout_height="45dip" 
+		            android:background="@color/common_transparent_color" 
+		            android:layout_marginTop="5dip"
+		            android:layout_marginRight="10dip"
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true" /> 
+		        <TextView 
+		            android:textSize="20.0sp" 
+		            android:textColor="@color/common_orange_color" 
+		            android:text="排行榜"
+		            android:layout_width="200dip" 
+		            android:singleLine="true"
+		            android:gravity="center" 
+		            android:layout_height="wrap_content" 
+		            android:layout_centerInParent="true" />
+		        
+		        <ImageButton  
+		            android:id="@+id/btn_search" 
+		            android:background="@color/common_transparent_color" 
+		            android:layout_width="60dip" 
+		            android:layout_height="45dip"  
+		            android:layout_marginTop="5dip" 
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true"
+		            android:layout_alignParentRight="true"
+		             />
+		    </RelativeLayout>  
+		    <LinearLayout 
+		         android:layout_width="fill_parent" android:layout_height="60dip" 
+		         android:orientation="horizontal"
+		         android:background="@drawable/bg_listitem_topic"
+		         android:gravity="center_horizontal|center_vertical"
+		        > 
+		         <TextView 
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/rank_tv"
+		              android:text="电视剧"
+		              android:gravity="center"
+		              android:textColor="@color/white"
+		              android:textSize="16sp"
+		              android:layout_weight="1"
+		            />
+		          <TextView   
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/rank_movie"
+		              android:text="电影"
+		              android:gravity="center"
+		              android:textColor="@color/white"
+		              android:textSize="16sp"
+		              android:layout_weight="1"
+		            />
+		          <TextView 
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/rank_tvshow"
+		              android:text="综艺"
+		              android:gravity="center"
+		              android:textColor="@color/white"
+		              android:textSize="16sp"
+		              android:layout_weight="1"
+		            />
+		           <TextView 
+		              android:layout_width="wrap_content"
+		              android:layout_height="wrap_content"
+		              android:id="@+id/rank_comic"
+		              android:text="动漫"
+		              android:gravity="center"
+		              android:textColor="@color/white"
+		              android:textSize="16sp"
+		              android:layout_weight="1" 
+		            />
+		    </LinearLayout>
+			   <RelativeLayout 
+			        android:layout_width="fill_parent" 
+			        android:layout_height="fill_parent"
+			        android:orientation="vertical"
+			        android:id="@+id/horizontalSc"
+			        > 
+			       <ListView 
+			           android:layout_centerHorizontal="true" 
+		                android:layout_gravity="center_horizontal"
+		                android:id="@+id/listview"
+		                 android:scrollbars="none" android:fadingEdge="none"  
+		                 android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+		                 android:layout_width="fill_parent"
+		                 android:layout_height="fill_parent"
+		                 android:layout_marginBottom="15dip"
+		              />
+		           </RelativeLayout>
+		         
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/progressLinear"
+	        android:layout_alignParentBottom="true"
+	       	android:layout_centerHorizontal="true"
+	        android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip">
+       		 <ProgressBar android:id="@id/progressbar_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmall" />
+      		 <TextView android:textSize="15.0sp" android:textColor="@color/common_white_color" android:gravity="clip_vertical" android:id="@id/load_more_textview" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" android:text="@string/loading" />
+      </LinearLayout> 
+</RelativeLayout>

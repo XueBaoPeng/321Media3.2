@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape android:shape="rectangle"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <size android:height="2.0dip" android:width="40.0dip" />
+    <solid android:color="@color/common_orange_color" />
+</shape><!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/drawable/bg_tab_line.xml -->

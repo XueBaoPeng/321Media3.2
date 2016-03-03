@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">321影音</string> 
+    <string name="app_name_player">321影音（推荐）</string> 
+    <string name="hello_world">Hello world!</string>
+    <string name="score">评分：</string>
+    <string name="retry">重试</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_main_radia">电台广播</string>
+    <string name="title_activity_main_home_today_recommend">今日推荐</string>
+    <string name="title_activity_main_home_hot_video">热门影视</string>
+    <string name="video_detail_tv_favorite">收藏</string>
+    <string name="video_detail_tv_shortdesc">简介：</string>
+    <string name="video_detail_tv_recommend">推荐内容</string>
+    <string name="quit_le123">退出</string>
+    <string name="back_le123">返回</string>
+    <string name="activity_btn_clear">清空</string>
+    <string name="activity_favorite_tv_titile">收藏夹</string>
+    <string name="activity_record_tv_titile">观看记录</string>
+    <string name="activity_feedback_tv_titile">意见反馈</string>
+    <string name="activity_feedback_tv_feedback">请留下您的意见…</string>
+    <string name="activity_feedback_tv_message">您的邮箱、电话</string>
+    <string name="activity_feedback_btn_confirm">确定</string>
+    <string name="activity_feedback_btn_cancel">取消</string>
+    <string name="activity_about_le_tv_titile">关于乐321影音</string>
+    <string name="activity_favorite_date">收藏时间：</string>
+    <string name="activity_delete">删除</string> 
+    <string name="tip_network">亲，网络异常，请检查网络哦！</string>
+    <string name="choose_upload">Choose file for upload</string>
+    <string name="quit_desc">确定要退出影片播放吗？</string>
+    <string name="prompt">乐123小提示</string>
+    <string name="stopping">正在停止...</string>
+    <string name="ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="loading">正在加载...</string>
+    <string name="activity_feedback_input">请输入您的意见！</string>
+    <string name="activity_feedback_address">请输入您的联系地址！</string>
+    <string name="activity_feedback_success">您的意见已经成功提交！</string>
+    <string name="activity_feedback_input_notavaliable">请输入正确的联系方式！</string>
+    <string name="activity_feedback_fail">反馈失败，请检查您的网络！</string>
+    <string name="view_tabMyMessage_titile">退出</string>
+    <string name="view_tabMyMessage_message">您确定要退出Le123吗？</string>
+    <string name="search_view_edit">来搜点神马吧…</string>
+    <string name="search_result_activity_edit">请输入您要搜索的内容…</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+		this device.</string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="VideoView_error_button">OK</string>
+    <string name="loadvideotext">加载中，请稍候...</string>
+    <string name="net_outage_tip">网络中断，请检查网络</string>
+    <string name="tips">提示</string>
+     <string name="playretry">播放出错了，是否重试?</string>
+    <string name="playretry_neterror">网络异常，是否重试?</string>
+    <string name="player_exit">退出</string>
+    <string  name="setplay_for_soft">1，当前使用【系统解码】播放视频；\n2，如果播放时出现：无法播放视频、有声音没有图像等等情况，请点击按钮，将切换到软解码播放</string>
+	<string  name="setplay_for_system">1，当前使用【软解码】播放视频；\n2，如果播放时不是很流畅，达不到你的视听需求，请点击按钮，将切换到系统解码播放</string>
+	<string name="play_comper">播放完成，是否进入【321影音】</string>
+	<string name="exit_player_text">正在退出播放...</string>
+	<string name = "tip">提示</string>
+    <string name = "netdown">网络连接失败!</string>
+    <string name="net_3g">您正在使用3G/2G网络!</string>
+    <string name="net_is_3g_or_2g">当前是3G网络，会产生流量，是否继续使用</string>
+    <string name="player_sure_3g_tip">继续使用</string>
+    <string name="player_exit_3g_tip">下次再说</string>
+    <string name="init_decoders">初始化解码器...</string>
+    <string name="no_vide_file">没有视频文件</string>
+ 
+    <string name="list_refresh">视频列表已刷新！</string>
+	<string name="button_ok">确定</string>
+	<string name="button_cancel">取消</string>
+	<string name="sd_shared">请您先退出USB模式,再运行该应用</string>
+	<string name="sd_unmounted">SD卡未加载到手机</string>
+	<string name="sd_removed">未找到SD卡</string>
+	<string name="sd_noinsert">未找到SD卡</string>
+	<string name="duration_tag">影片时长:</string>
+	<array name="items_for_externalCaller">
+		<item>播放</item>
+		<item>添加此视频</item>
+	</array>
+	<string name="file_notexist">这个文件已经不存在</string>
+	<string name="confirm_addvideo">确认要添加此视频吗？</string>
+	<string name="confirm_deletefile_isnofile">该文件已经被删除了</string>
+	<string name="fail_deletefile">删除文件失败</string>
+	<string name="fail_deleterecent">删除列表失败</string>
+	<string name="fail_renamefile">重命名文件失败</string>
+	<string name="fail_renameexist">该文件已存在！</string>
+	<string name="fail_renametoolong">文件名过长，重命名失败！</string>
+	<string name="fail_renameempty">文件名为空，重命名失败！</string>
+	<string name="rename_dialog">重命名</string>
+	<array name="items_for_allVideo">
+		<item>播放</item>
+		<item>重命名</item>
+		<item>删除</item>
+	</array>
+	<array name="items_for_allVideo_local">
+		<item>播放</item>
+		<item>删除</item>
+	</array>
+	
+	<string name="confirm_deletefile">确认要删除该文件吗？</string>
+	<string name = "noviewinghistory">还没有观看历史</string>
+	<string name = "seehistory">观看历史</string>
+	<string name = "cleanup">清空</string>
+	<string name = "deleteallhistory">删除所有观看历史？</string>
+	<string name = "queren">确认</string>
+ 	<string name = "secondbefore">秒前</string>
+ 	<string name = "minutebefore">分钟前</string>
+ 	<string name = "hoursbefore">小时前</string>
+	
+</resources>

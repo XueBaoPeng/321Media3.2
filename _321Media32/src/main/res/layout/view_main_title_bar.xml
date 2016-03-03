@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <RelativeLayout android:orientation="horizontal" android:background="@drawable/video_detail_bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <Button android:id="@id/btn_logo" android:background="@drawable/bg_btn_logo" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="10.0dip" android:layout_centerVertical="true" />
+        <TextView android:textSize="20.0sp" android:textColor="@color/common_orange_color" android:id="@id/tv_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" />
+        <ImageButton  
+            android:id="@id/btn_search" android:background="@color/common_transparent_color" android:layout_width="50.0dip" android:layout_height="50.0dip" android:src="@drawable/selector_titlebar_btn_search" android:layout_alignParentRight="true" android:layout_centerVertical="true" />
+    </RelativeLayout>
+</merge>

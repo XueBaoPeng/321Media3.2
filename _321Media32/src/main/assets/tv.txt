@@ -1,0 +1,23 @@
+{"video":
+			[{"videoNamePerson":"中央电视台全套",
+						"videos":[  
+									  {"title":"CCTV-1","url":"http://cntv.itv.doplive.com.cn/live591/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv1.gif","flags":"6"}
+									 ,{"title":"CCTV-2","url":"http://cntv.itv.doplive.com.cn/live592/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv2.gif","flags":"6"}
+									 ,{"title":"CCTV-3","url":"http://cntv.itv.doplive.com.cn/live593/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv3.gif","flags":"6"}
+									 ,{"title":"CCTV-4","url":"http://cntv.itv.doplive.com.cn/live594/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv4.gif","flags":"6"}
+									 ,{"title":"CCTV-5","url":"http://cntv.itv.doplive.com.cn/live595/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv5.gif","flags":"6"}
+									 ,{"title":"CCTV-6","url":"http://cntv.itv.doplive.com.cn/live512/index_128k.m3u8","image":"http://i0597.com/cntv/images/cctv6.gif","flags":"6"}
+									 ,{"title":"CCTV-7","url":"http://hls16.cntv.chinacache.net/cache/12_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-8","url":"http://hls16.cntv.chinacache.net/cache/13_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-9","url":"http://hls16.cntv.chinacache.net/cache/17_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-10","url":"http://sw.live.cntv.cn/cctv_p2p_cctv10.m3u8","image":""}
+									 ,{"title":"CCTV-11","url":"http://hlslive2.cntv.wscdns.com/cache/3_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-12","url":"http://hlslive2.cntv.wscdns.com/cache/4_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-13","url":"http://hlslive2.cntv.wscdns.com/cache/5_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-14","url":"http://hlslive2.cntv.wscdns.com/cache/15_/seg0/index.m3u8","image":""}
+									 ,{"title":"CCTV-15","url":"http://hlslive2.cntv.wscdns.com/cache/15_/seg0/index.m3u8","image":""}
+									  ] 
+	
+			}
+			]
+	}

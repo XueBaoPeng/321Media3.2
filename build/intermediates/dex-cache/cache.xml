@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="E:\YouKu_Video\321Media3.21\_321Media32\libs\AppOffer_1.8.6.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="f51cda773c91051f09efba85c6bff5e583090d5f">
+        <dex dex="E:\YouKu_Video\321Media3.21\_321Media32\build\intermediates\pre-dexed\debug\AppOffer_1.8.6-92330137cd20cc7d2e950d40732e231e408ee403.jar" />
+    </item>
+    <item
+        jar="D:\android_studio_sdk\extras\android\m2repository\com\android\support\support-v4\18.0.0\support-v4-18.0.0.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="44ec51e9d395a47aab135e5e1b556c0007442156">
+        <dex dex="E:\YouKu_Video\321Media3.21\_321Media32\build\intermediates\pre-dexed\debug\support-v4-18.0.0-6aa5c32612313a44b32755e4bfe8c18964af166e.jar" />
+    </item>
+    <item
+        jar="E:\YouKu_Video\321Media3.21\_321Media32\libs\AppOffer_1.8.6_yangguangfu.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="719da67b6639a132127a2810126ecc3db7c8d17f">
+        <dex dex="E:\YouKu_Video\321Media3.21\_321Media32\build\intermediates\pre-dexed\debug\AppOffer_1.8.6_yangguangfu-a1d3f9f0d9d13852c0e05eb13309a504ea1323c2.jar" />
+    </item>
+    <item
+        jar="E:\YouKu_Video\321Media3.21\_321Media32\build\intermediates\exploded-aar\321Media3.21\initActivity\unspecified\jars\classes.jar"
+        jumboMode="false"
+        revision="22.0.1"
+        sha1="cee55fe9490e701c686c6b735aff1427cbf53d84">
+        <dex dex="E:\YouKu_Video\321Media3.21\_321Media32\build\intermediates\pre-dexed\debug\classes-d487468da1d1c11fe0af93a5c505ff720e833acc.jar" />
+    </item>
+
+</items>

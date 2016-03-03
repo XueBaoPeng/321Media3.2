@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical" 
+	android:layout_width="fill_parent"
+	android:layout_height="fill_parent"   
+	>
+	
+     <RelativeLayout 
+         android:id="@+id/titlebar"
+         android:orientation="horizontal" android:background="@drawable/video_detail_bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		        <ImageButton
+		            android:id="@id/btn_logo" 
+		            android:src="@drawable/selector_video_detail_btn_back" 
+		            android:layout_width="60dip" 
+		            android:layout_height="45dip" 
+		            android:background="@color/common_transparent_color"
+		            android:layout_marginLeft="5.0dip" 
+		            android:layout_marginTop="5dip"
+		            android:layout_marginRight="10dip"
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true" />
+		        <TextView 
+		            android:textSize="20.0sp" 
+		            android:textColor="@color/common_orange_color" 
+		            android:id="@id/tv_title" 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content" 
+		            android:layout_centerInParent="true" />
+		        
+		        <Button 
+		            android:id="@+id/btn_search" 
+		            android:background="@drawable/showpopwindow" 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"  
+		            android:layout_marginTop="5dip"
+		            android:layout_marginRight="5dip"
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true"
+		            android:layout_alignParentRight="true"
+		            android:visibility="gone" />
+		    </RelativeLayout>   
+	
+		
+	<LinearLayout
+	 android:layout_gravity="fill_horizontal|fill_vertical"
+	 android:layout_width="wrap_content" 
+	 android:layout_below="@id/titlebar"
+	 android:layout_height="wrap_content">
+		
+	    
+	    
+	</LinearLayout>
+	
+	
+
+</RelativeLayout>

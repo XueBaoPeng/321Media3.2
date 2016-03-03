@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:layout_width="fill_parent"  
+    android:layout_height="fill_parent"
+    android:background="@drawable/bg_fravorite_record"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <cn.hi321.android.media.widget.MainTitlebar  
+        android:id="@id/main_title" android:layout_width="fill_parent" 
+        android:layout_height="wrap_content" /> 
+         <ListView   
+        android:layout_below="@+id/main_title"
+        android:id="@id/view_main_tab_my_listview"  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:cacheColorHint="@android:color/transparent" 
+        android:divider="@color/common_transparent_color" 
+        android:dividerHeight="1.0dip" /> 
+</RelativeLayout><!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/layout/view_main_tab_my_message.xml -->

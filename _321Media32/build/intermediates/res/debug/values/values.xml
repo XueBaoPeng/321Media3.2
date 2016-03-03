@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <array name="items_for_allVideo">
+		<item>播放</item>
+		<item>重命名</item>
+		<item>删除</item>
+	</array>
+    <array name="items_for_allVideo_local">
+		<item>播放</item>
+		<item>删除</item>
+	</array>
+    <array name="items_for_externalCaller">
+		<item>播放</item>
+		<item>添加此视频</item>
+	</array>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/attrs.xml -->
+    <eat-comment/>
+    <attr format="string" name="text"/>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="black">#FF000000</color>
+    <color name="common_black_color">#ff383838</color>
+    <color name="common_blue_color">#ff44a9ff</color>
+    <color name="common_gray_color">#ffd6d6d6</color>
+    <color name="common_orange_color">#ffff6d00</color>
+    <color name="common_transparent_color">#00000000</color>
+    <color name="common_white_color">#ffffffff</color>
+    <color name="home_banner_checked_color">#ffea0107</color>
+    <color name="home_banner_default_color">#ffffffff</color>
+    <color name="indicator_color">#ffff6d00</color>
+    <color name="listview_diver_filter_color">#ff000000</color>
+    <color name="listview_diver_gray">#ffd6d6d6</color>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/build/intermediates/exploded-aar/321Media3.21/initActivity/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="mediacontroller_bg">#99000000</color>
+    <color name="mediacontroller_bg_pressed">#ff53c1bd</color>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="play_time_color">#ffe4e0ee</color>
+    <color name="search_pagertabstrip_color">#ff212121</color>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/build/intermediates/exploded-aar/321Media3.21/initActivity/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <color name="transparent">#00000000</color>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/colors.xml -->
+    <eat-comment/>
+    <color name="white">#FFFFFFFF</color>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/dimens.xml -->
+    <eat-comment/>
+    <dimen name="about_le123_btn_padding_top">120.0dip</dimen>
+    <dimen name="about_le123_content_tv_line_padding">5.0dip</dimen>
+    <dimen name="about_le123_content_tv_padding_left">20.0dip</dimen>
+    <dimen name="about_le123_content_tv_padding_right">20.0dip</dimen>
+    <dimen name="about_le123_content_tv_padding_top">20.0dip</dimen>
+    <dimen name="bannerview_padding_top">1.0dip</dimen>
+    <dimen name="btn_next_height">44.0dip</dimen>
+    <dimen name="btn_next_margin_left">190.0dip</dimen>
+    <dimen name="btn_next_width">112.0dip</dimen>
+    <dimen name="common_btn_clear_height">30.0dip</dimen>
+    <dimen name="common_btn_clear_width">50.0dip</dimen>
+    <dimen name="common_clear_btn_padding_left">14.0dip</dimen>
+    <dimen name="common_content_tv_padding_left">10.0dip</dimen>
+    <dimen name="common_content_tv_padding_top">5.0dip</dimen>
+    <dimen name="common_delete_tv_padding_right">23.0dip</dimen>
+    <dimen name="common_delete_tv_padding_top">21.0dip</dimen>
+    <dimen name="common_font_size_10">10.0sp</dimen>
+    <dimen name="common_font_size_12">12.0sp</dimen>
+    <dimen name="common_font_size_15">15.0sp</dimen>
+    <dimen name="common_font_size_18">18.0sp</dimen>
+    <dimen name="common_font_size_9">9.0sp</dimen>
+    <dimen name="common_hotvideo_btn_padding_right">33.0dip</dimen>
+    <dimen name="common_hotvideo_btn_padding_top">39.0dip</dimen>
+    <dimen name="common_hotvideo_iamge_height">80.0dip</dimen>
+    <dimen name="common_hotvideo_iamge_width">60.0dip</dimen>
+    <dimen name="common_hotvideo_iv_padding_right">10.0dip</dimen>
+    <dimen name="common_hotvideo_padding_bottom">3.0dip</dimen>
+    <dimen name="common_hotvideo_padding_left">9.0dip</dimen>
+    <dimen name="common_hotvideo_padding_top">2.0dip</dimen>
+    <dimen name="common_hotvideo_tv_padding_top">10.0dip</dimen>
+    <dimen name="common_iv_topic_padding_right">20.0dip</dimen>
+    <dimen name="common_iv_topic_padding_top">11.0dip</dimen>
+    <dimen name="common_name_tv_padding_left">10.0dip</dimen>
+    <dimen name="common_name_tv_padding_top">5.0dip</dimen>
+    <dimen name="common_number_tv_padding_left">21.0dip</dimen>
+    <dimen name="common_number_tv_padding_top">19.0dip</dimen>
+    <dimen name="common_number_tv_width">60.0dip</dimen>
+    <dimen name="common_padding">10.0dip</dimen>
+    <dimen name="common_padding_left">10.0dip</dimen>
+    <dimen name="common_padding_right">10.0dip</dimen>
+    <dimen name="common_padding_top">3.0dip</dimen>
+    <dimen name="common_tv_topic_padding_left">5.0dip</dimen>
+    <dimen name="common_tv_topic_padding_top">7.0dip</dimen>
+    <dimen name="dip2pix">1.0dip</dimen>
+    <dimen name="feedback_content_btn_padding">20.0dip</dimen>
+    <dimen name="feedback_content_btn_padding_top">30.0dip</dimen>
+    <dimen name="feedback_content_tv_padding_left_right">20.0dip</dimen>
+    <dimen name="feedback_content_tv_padding_top">15.0dip</dimen>
+    <dimen name="grid_spacings">8.0dip</dimen>
+    <dimen name="gridview_channel_horizontal_padding">6.0dip</dimen>
+    <dimen name="gridview_channel_image_height">100.0dip</dimen>
+    <dimen name="gridview_channel_image_width">150.0dip</dimen>
+    <dimen name="gridview_channel_padding">3.0dip</dimen>
+    <dimen name="gridview_channel_vertical_padding">8.0dip</dimen>
+    <dimen name="home_recommend_below_iamge_height">90.0dip</dimen>
+    <dimen name="home_recommend_below_iamge_width">320.0dip</dimen>
+    <dimen name="home_recommend_gallery_space">3.0dip</dimen>
+    <dimen name="home_recommend_iamge_height">136.0dip</dimen>
+    <dimen name="home_recommend_iamge_width">102.0dip</dimen>
+    <dimen name="home_recommend_padding_left">3.0dip</dimen>
+    <dimen name="home_recommend_padding_right">3.0dip</dimen>
+    <dimen name="home_recommend_padding_top">3.0dip</dimen>
+    <dimen name="le123_btn_quit_padding_top">70.0dip</dimen>
+    <dimen name="le123_listview_content_padding_top">2.0dip</dimen>
+    <dimen name="le123_listview_minHeight">66.0dip</dimen>
+    <dimen name="le123_listview_padding_left">24.0dip</dimen>
+    <dimen name="le123_tv_image_padding">10.0dip</dimen>
+    <dimen name="listitem_btn_padding_right">8.0dip</dimen>
+    <dimen name="listitem_hot_video_height">120.0dip</dimen>
+    <dimen name="listitem_hot_video_width">95.0dip</dimen>
+    <dimen name="listitem_rating_padding_right">6.0dip</dimen>
+    <dimen name="listitem_rating_padding_top">10.0dip</dimen>
+    <dimen name="main_banner_height">150.0dip</dimen>
+    <dimen name="padding_large">16.0dip</dimen>
+    <dimen name="padding_medium">8.0dip</dimen>
+    <dimen name="padding_small">8.0dip</dimen>
+    <dimen name="popmenu_width">260.0dip</dimen>
+    <dimen name="popmenu_yoff">5.0dip</dimen>
+    <dimen name="search_btn_padding_left">11.0dip</dimen>
+    <dimen name="search_btn_padding_top">1.0dip</dimen>
+    <dimen name="search_iamge_height">46.0dip</dimen>
+    <dimen name="search_iamge_padding_left">7.0dip</dimen>
+    <dimen name="search_iamge_padding_top">18.0dip</dimen>
+    <dimen name="search_iamge_width">60.0dip</dimen>
+    <dimen name="search_result_auto_padding">15.0dip</dimen>
+    <dimen name="search_result_auto_padding_iamge">2.0dip</dimen>
+    <dimen name="search_result_auto_padding_left">6.0dip</dimen>
+    <dimen name="search_result_auto_padding_top">20.0dip</dimen>
+    <dimen name="search_result_padding_bottom">3.0dip</dimen>
+    <dimen name="search_result_padding_top">5.0dip</dimen>
+    <dimen name="search_result_subname_padding_top">8.0dip</dimen>
+    <dimen name="search_tv_line_padding">3.0dip</dimen>
+    <dimen name="search_tv_name_padding_top">1.0dip</dimen>
+    <dimen name="search_tv_padding_left">5.0dip</dimen>
+    <dimen name="search_tv_subname_padding_top">2.0dip</dimen>
+    <dimen name="theme_page_image_padding_left">9.0dip</dimen>
+    <dimen name="theme_page_image_padding_right">6.0dip</dimen>
+    <dimen name="theme_page_image_padding_top">2.0dip</dimen>
+    <dimen name="theme_page_image_width">80.0dip</dimen>
+    <dimen name="theme_page_tv_padding_bottom">9.0dip</dimen>
+    <dimen name="theme_page_tv_padding_top">5.0dip</dimen>
+    <dimen name="theme_tv_subname_width">180.0dip</dimen>
+    <dimen name="themelist_music_iamge_height">60.0dip</dimen>
+    <dimen name="themelist_music_iamge_width">80.0dip</dimen>
+    <dimen name="title_text_padding_left">5.0dip</dimen>
+    <dimen name="title_text_padding_top">6.0dip</dimen>
+    <dimen name="video_detail_image_width">108.0dip</dimen>
+    <dimen name="video_detail_short_image_width">80.0dip</dimen>
+    <dimen name="video_detail_tv_padding_left">10.0dip</dimen>
+    <dimen name="videodetail_gridview_padding">6.0dip</dimen>
+    <dimen name="videodetail_gridview_padding_bottom">10.0dip</dimen>
+    <dimen name="videodetail_gridview_padding_top">10.0dip</dimen>
+    <dimen name="videodetail_image_padding_top">10.0dip</dimen>
+    <dimen name="videodetail_name_tv_padding_left">8.0dip</dimen>
+    <dimen name="videodetail_padding_left">8.0dip</dimen>
+    <dimen name="videodetail_padding_right">8.0dip</dimen>
+    <dimen name="viewflipper_image_height">701.0dip</dimen>
+    <dimen name="viewflipper_image_width">640.0dip</dimen>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/ids.xml -->
+    <eat-comment/>
+    <item name="about_video_image" type="id">false</item>
+    <item name="activity_about_le_btn_back_bottom" type="id">false</item>
+    <item name="activity_favorite_listview" type="id">false</item>
+    <item name="activity_feedback_cancel" type="id">false</item>
+    <item name="activity_feedback_confirm" type="id">false</item>
+    <item name="activity_feedback_content" type="id">false</item>
+    <item name="activity_feedback_tel" type="id">false</item>
+    <item name="activity_record_listview" type="id">false</item>
+    <item name="activity_upgrade_btn_back" type="id">false</item>
+    <item name="activity_upgrade_pro" type="id">false</item>
+    <item name="activity_upgrade_tv" type="id">false</item>
+    <item name="banner_bottom" type="id">false</item>
+    <item name="banner_view" type="id">false</item>
+    <item name="btn_back" type="id">false</item>
+    <item name="btn_cancel" type="id">false</item>
+    <item name="btn_edit" type="id">false</item>
+    <item name="btn_home" type="id">false</item>
+    <item name="btn_logo" type="id">false</item>
+    <item name="btn_ok" type="id">false</item>
+    <item name="btn_play" type="id">false</item>
+    <item name="btn_search" type="id">false</item>
+    <item name="btn_searchs" type="id">false</item>
+    <item name="btn_show_next" type="id">false</item>
+    <item name="btn_title_clear" type="id">false</item>
+    <item name="craw" type="id">false</item>
+    <item name="error_console" type="id">false</item>
+    <item name="et" type="id">false</item>
+    <item name="et_search_input" type="id">false</item>
+    <item name="frame" type="id">false</item>
+    <item name="fullscreen_custom_content" type="id">false</item>
+    <item name="geolocation_permissions_prompt" type="id">false</item>
+    <item name="gridbtn" type="id">false</item>
+    <item name="iamge" type="id">false</item>
+    <item name="ibtn_back" type="id">false</item>
+    <item name="ibtn_title_back" type="id">false</item>
+    <item name="imageview_video" type="id">false</item>
+    <item name="img_hidden" type="id">false</item>
+    <item name="indicatorGroupView" type="id">false</item>
+    <item name="iv_hot" type="id">false</item>
+    <item name="iv_logo" type="id">false</item>
+    <item name="iv_top" type="id">false</item>
+    <item name="iv_topic" type="id">false</item>
+    <item name="iv_topicpage" type="id">false</item>
+    <item name="layout_loading" type="id">false</item>
+    <item name="layout_progress" type="id">false</item>
+    <item name="layout_success" type="id">false</item>
+    <item name="layout_temp" type="id">false</item>
+    <item name="linear" type="id">false</item>
+    <item name="linearId" type="id">false</item>
+    <item name="linear_below" type="id">false</item>
+    <item name="linear_bg" type="id">false</item>
+    <item name="linear_loading" type="id">false</item>
+    <item name="linears" type="id">false</item>
+    <item name="listitem_main_tab_my_tv" type="id">false</item>
+    <item name="listitem_search_number" type="id">false</item>
+    <item name="listitem_search_tv_name" type="id">false</item>
+    <item name="listitem_search_tv_subname" type="id">false</item>
+    <item name="listitem_search_tv_vt" type="id">false</item>
+    <item name="listitem_tab_my_tv_favorite_date" type="id">false</item>
+    <item name="listitem_tab_my_tv_favorite_date_titile" type="id">false</item>
+    <item name="listitem_tab_my_tv_video_delete" type="id">false</item>
+    <item name="listitem_tab_my_tv_video_name" type="id">false</item>
+    <item name="listitem_tab_my_tv_video_num" type="id">false</item>
+    <item name="listitem_tab_my_tv_video_videotype" type="id">false</item>
+    <item name="listitem_video_ratingbar" type="id">false</item>
+    <item name="listitem_video_recommend_iv" type="id">false</item>
+    <item name="listitem_video_topic_iv" type="id">false</item>
+    <item name="listitem_video_topic_tv" type="id">false</item>
+    <item name="listview" type="id">false</item>
+    <item name="listview_hotmovie" type="id">false</item>
+    <item name="listview_recommendmovie" type="id">false</item>
+    <item name="listview_topic" type="id">false</item>
+    <item name="listview_topicmovie" type="id">false</item>
+    <item name="listview_topicpage" type="id">false</item>
+    <item name="load_more_textview" type="id">false</item>
+    <item name="loading" type="id">false</item>
+    <item name="loading_layout" type="id">false</item>
+    <item name="loading_progressBar" type="id">false</item>
+    <item name="loading_text" type="id">false</item>
+    <item name="main_content" type="id">false</item>
+    <item name="main_loading" type="id">false</item>
+    <item name="main_pagger" type="id">false</item>
+    <item name="main_title" type="id">false</item>
+    <item name="menu_settings" type="id">false</item>
+    <item name="newImageGallery" type="id">false</item>
+    <item name="pager_tab_strip" type="id">false</item>
+    <item name="pagger" type="id">false</item>
+    <item name="programname" type="id">false</item>
+    <item name="progress_indicator" type="id">false</item>
+    <item name="progressbar" type="id">false</item>
+    <item name="progressbar_loading" type="id">false</item>
+    <item name="relative" type="id">false</item>
+    <item name="relative_common" type="id">false</item>
+    <item name="relative_short" type="id">false</item>
+    <item name="root_view" type="id">false</item>
+    <item name="scroll" type="id">false</item>
+    <item name="scrollview" type="id">false</item>
+    <item name="tab_channel" type="id">false</item>
+    <item name="tab_home" type="id">false</item>
+    <item name="tab_my" type="id">false</item>
+    <item name="tab_search" type="id">false</item>
+    <item name="tabview" type="id">false</item>
+    <item name="textline" type="id">false</item>
+    <item name="textview" type="id">false</item>
+    <item name="textview_act" type="id">false</item>
+    <item name="textview_director" type="id">false</item>
+    <item name="textview_indicator" type="id">false</item>
+    <item name="textview_name" type="id">false</item>
+    <item name="textview_sub_name" type="id">false</item>
+    <item name="textview_updatetip" type="id">false</item>
+    <item name="textviewline" type="id">false</item>
+    <item name="titleBar" type="id">false</item>
+    <item name="toggleButton" type="id">false</item>
+    <item name="top" type="id">false</item>
+    <item name="tv" type="id">false</item>
+    <item name="tv_complete" type="id">false</item>
+    <item name="tv_context" type="id">false</item>
+    <item name="tv_final" type="id">false</item>
+    <item name="tv_hot" type="id">false</item>
+    <item name="tv_listitem_topicpage_name" type="id">false</item>
+    <item name="tv_rank" type="id">false</item>
+    <item name="tv_retry" type="id">false</item>
+    <item name="tv_text" type="id">false</item>
+    <item name="tv_titile_name" type="id">false</item>
+    <item name="tv_title" type="id">false</item>
+    <item name="tv_title_name" type="id">false</item>
+    <item name="tv_topic" type="id">false</item>
+    <item name="tv_topicpage_shortname" type="id">false</item>
+    <item name="videoPlayButton" type="id">false</item>
+    <item name="videoPlayButton_history_text" type="id">false</item>
+    <item name="video_detail_btn_download" type="id">false</item>
+    <item name="video_detail_btn_favorites" type="id">false</item>
+    <item name="video_detail_btn_play" type="id">false</item>
+    <item name="video_detail_btn_select_website_linear" type="id">false</item>
+    <item name="video_detail_btn_share" type="id">false</item>
+    <item name="video_detail_gallery" type="id">false</item>
+    <item name="video_detail_grid_select" type="id">false</item>
+    <item name="video_detail_iv" type="id">false</item>
+    <item name="video_detail_linear_website" type="id">false</item>
+    <item name="video_detail_ratingbar" type="id">false</item>
+    <item name="video_detail_score_title" type="id">false</item>
+    <item name="video_detail_short_btn_download" type="id">false</item>
+    <item name="video_detail_short_btn_favorites" type="id">false</item>
+    <item name="video_detail_short_btn_play" type="id">false</item>
+    <item name="video_detail_short_btn_share" type="id">false</item>
+    <item name="video_detail_short_iv" type="id">false</item>
+    <item name="video_detail_subname" type="id">false</item>
+    <item name="video_detail_tv_actor" type="id">false</item>
+    <item name="video_detail_tv_area" type="id">false</item>
+    <item name="video_detail_tv_caregorye" type="id">false</item>
+    <item name="video_detail_tv_direct" type="id">false</item>
+    <item name="video_detail_tv_recommend" type="id">false</item>
+    <item name="video_detail_tv_score" type="id">false</item>
+    <item name="video_detail_tv_shortdesc" type="id">false</item>
+    <item name="video_detail_tv_shortdesc_title" type="id">false</item>
+    <item name="view_flipper" type="id">false</item>
+    <item name="view_indiccator" type="id">false</item>
+    <item name="view_main_tab_channel_iv" type="id">false</item>
+    <item name="view_main_tab_channle_grid" type="id">false</item>
+    <item name="view_main_tab_home" type="id">false</item>
+    <item name="view_main_tab_home_gallery_iv" type="id">false</item>
+    <item name="view_main_tab_home_grallery" type="id">false</item>
+    <item name="view_main_tab_my_back" type="id">false</item>
+    <item name="view_main_tab_my_listview" type="id">false</item>
+    <item name="view_select_grid" type="id">false</item>
+    <item name="view_select_linear" type="id">false</item>
+    <item name="view_tab_favorite_list" type="id">false</item>
+    <item name="viewpager" type="id">false</item>
+    <item name="viewstub_channel" type="id">false</item>
+    <item name="viewstub_me" type="id">false</item>
+    <item name="viewstub_search" type="id">false</item>
+    <item name="webview" type="id">false</item>
+    <item name="webview_wrapper" type="id">false</item>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="VideoView_error_button">OK</string>
+    <string name="VideoView_error_text_invalid_progressive_playback">Sorry, this video is not valid for streaming to
+		this device.</string>
+    <string name="VideoView_error_text_unknown">Sorry, this video cannot be played.</string>
+    <string name="VideoView_error_title">Cannot play video</string>
+    <string name="activity_about_le_tv_titile">关于乐321影音</string>
+    <string name="activity_btn_clear">清空</string>
+    <string name="activity_delete">删除</string>
+    <string name="activity_favorite_date">收藏时间：</string>
+    <string name="activity_favorite_tv_titile">收藏夹</string>
+    <string name="activity_feedback_address">请输入您的联系地址！</string>
+    <string name="activity_feedback_btn_cancel">取消</string>
+    <string name="activity_feedback_btn_confirm">确定</string>
+    <string name="activity_feedback_fail">反馈失败，请检查您的网络！</string>
+    <string name="activity_feedback_input">请输入您的意见！</string>
+    <string name="activity_feedback_input_notavaliable">请输入正确的联系方式！</string>
+    <string name="activity_feedback_success">您的意见已经成功提交！</string>
+    <string name="activity_feedback_tv_feedback">请留下您的意见…</string>
+    <string name="activity_feedback_tv_message">您的邮箱、电话</string>
+    <string name="activity_feedback_tv_titile">意见反馈</string>
+    <string name="activity_record_tv_titile">观看记录</string>
+    <string name="app_name">321影音</string>
+    <string name="app_name_player">321影音（推荐）</string>
+    <string name="back_le123">返回</string>
+    <string name="button_cancel">取消</string>
+    <string name="button_ok">确定</string>
+    <string name="cancel">取消</string>
+    <string name="choose_upload">Choose file for upload</string>
+    <string name="cleanup">清空</string>
+    <string name="confirm_addvideo">确认要添加此视频吗？</string>
+    <string name="confirm_deletefile">确认要删除该文件吗？</string>
+    <string name="confirm_deletefile_isnofile">该文件已经被删除了</string>
+    <string name="deleteallhistory">删除所有观看历史？</string>
+    <string name="duration_tag">影片时长:</string>
+    <string name="exit_player_text">正在退出播放...</string>
+    <string name="fail_deletefile">删除文件失败</string>
+    <string name="fail_deleterecent">删除列表失败</string>
+    <string name="fail_renameempty">文件名为空，重命名失败！</string>
+    <string name="fail_renameexist">该文件已存在！</string>
+    <string name="fail_renamefile">重命名文件失败</string>
+    <string name="fail_renametoolong">文件名过长，重命名失败！</string>
+    <string name="file_notexist">这个文件已经不存在</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="hoursbefore">小时前</string>
+    <string name="init_decoders">初始化解码器...</string>
+    <string name="list_refresh">视频列表已刷新！</string>
+    <string name="loading">正在加载...</string>
+    <string name="loadvideotext">加载中，请稍候...</string>
+    <string name="mediacontroller_play_pause">Play/Pause</string>
+    <string name="menu_settings">Settings</string>
+    <string name="minutebefore">分钟前</string>
+    <string name="net_3g">您正在使用3G/2G网络!</string>
+    <string name="net_is_3g_or_2g">当前是3G网络，会产生流量，是否继续使用</string>
+    <string name="net_outage_tip">网络中断，请检查网络</string>
+    <string name="netdown">网络连接失败!</string>
+    <string name="no_vide_file">没有视频文件</string>
+    <string name="noviewinghistory">还没有观看历史</string>
+    <string name="ok">确定</string>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/build/intermediates/exploded-aar/321Media3.21/initActivity/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="permission_group_tools_description">Access Vitamio package and resources.</string>
+    <string name="permission_group_tools_label">Vitamio tools</string>
+    <string name="permission_receive_messages_description">Receive all broadcasts from Vitamio service.</string>
+    <string name="permission_receive_messages_label">Receive Vitamio messages</string>
+    <string name="permission_write_providers_description">Delete, update or create new items in Vitamio providers.
+    </string>
+    <string name="permission_write_providers_label">Write Vitamio providers</string>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="play_comper">播放完成，是否进入【321影音】</string>
+    <string name="player_exit">退出</string>
+    <string name="player_exit_3g_tip">下次再说</string>
+    <string name="player_sure_3g_tip">继续使用</string>
+    <string name="playretry">播放出错了，是否重试?</string>
+    <string name="playretry_neterror">网络异常，是否重试?</string>
+    <string name="prompt">乐123小提示</string>
+    <string name="queren">确认</string>
+    <string name="quit_desc">确定要退出影片播放吗？</string>
+    <string name="quit_le123">退出</string>
+    <string name="rename_dialog">重命名</string>
+    <string name="retry">重试</string>
+    <string name="score">评分：</string>
+    <string name="sd_noinsert">未找到SD卡</string>
+    <string name="sd_removed">未找到SD卡</string>
+    <string name="sd_shared">请您先退出USB模式,再运行该应用</string>
+    <string name="sd_unmounted">SD卡未加载到手机</string>
+    <string name="search_result_activity_edit">请输入您要搜索的内容…</string>
+    <string name="search_view_edit">来搜点神马吧…</string>
+    <string name="secondbefore">秒前</string>
+    <string name="seehistory">观看历史</string>
+    <string name="setplay_for_soft">1，当前使用【系统解码】播放视频；\n2，如果播放时出现：无法播放视频、有声音没有图像等等情况，请点击按钮，将切换到软解码播放</string>
+    <string name="setplay_for_system">1，当前使用【软解码】播放视频；\n2，如果播放时不是很流畅，达不到你的视听需求，请点击按钮，将切换到系统解码播放</string>
+    <string name="stopping">正在停止...</string>
+    <string name="tip">提示</string>
+    <string name="tip_network">亲，网络异常，请检查网络哦！</string>
+    <string name="tips">提示</string>
+    <string name="title_activity_main_home_hot_video">热门影视</string>
+    <string name="title_activity_main_home_today_recommend">今日推荐</string>
+    <string name="title_activity_main_radia">电台广播</string>
+    <string name="video_detail_tv_favorite">收藏</string>
+    <string name="video_detail_tv_recommend">推荐内容</string>
+    <string name="video_detail_tv_shortdesc">简介：</string>
+    <string name="view_tabMyMessage_message">您确定要退出Le123吗？</string>
+    <string name="view_tabMyMessage_titile">退出</string>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/build/intermediates/exploded-aar/321Media3.21/initActivity/unspecified/res/values/values.xml -->
+    <eat-comment/>
+    <string name="vitamio_init_decoders">Initializing decoders…</string>
+    <string name="vitamio_library_app_name">VitamioLibrary</string>
+    <!-- From: file:/E:/YouKu_Video/321Media3.21/_321Media32/src/main/res/values/styles.xml -->
+    <eat-comment/>
+    <style name="AppTheme" parent="@android:style/Theme.Light"/>
+    <style name="MediaController_SeekBar">
+        <item name="android:minHeight">16dip</item>
+        <item name="android:maxHeight">16dip</item>
+        <item name="android:progressDrawable">@drawable/mediacontroller_seekbar</item>
+        <item name="android:thumb">@drawable/mediacontroller_seekbar_thumb</item>
+    </style>
+    <style name="MediaController_Text">
+        <item name="android:textColor">#ffffffff</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+    <style name="listview_style">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:divider">@null</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="listview_style_divider">
+        <item name="android:scrollbars">none</item>
+        <item name="android:fadingEdge">none</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:scrollingCache">false</item>
+        <item name="android:cacheColorHint">#00000000</item>
+        <item name="android:dividerHeight">1.0dip</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="myratingbar" parent="@android:style/Widget.RatingBar">
+        <item name="android:maxHeight">20.0dip</item>
+        <item name="android:progressDrawable">@drawable/selector_myratingbar</item>
+        <item name="android:minHeight">20.0dip</item>
+    </style>
+    <style name="player_dialog_list">    
+   		<item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:backgroundDimEnabled">false</item>    
+	</style>
+    <style name="seekBarStyleHorizontal">
+        <item name="android:focusable">false</item>
+        <item name="android:maxHeight">6.0dip</item>
+        <item name="android:indeterminateOnly">false</item>
+        <item name="android:progressDrawable">@drawable/seekbar_progress_horizontal</item>
+        <item name="android:minHeight">6.0dip</item>
+        <item name="android:thumb">@drawable/progress_dot_normal</item>
+    </style>
+    <style name="tab_bottom_item2">
+        <item name="android:gravity">center</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:button">@null</item>
+        <item name="android:scaleType">center</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <style name="waiting" parent="@android:style/Theme.Dialog">
+         <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:background">@null</item>
+        <item name="android:windowBackground">@drawable/drawable_waiting</item>
+        <item name="android:backgroundDimEnabled">true</item>
+    </style>
+    <style name="waitingLoading">    
+    <item name="android:windowBackground">@color/common_transparent_color</item>    
+    <item name="android:windowNoTitle">true</item>    
+    <item name="android:windowFullscreen">true</item>  
+    <item name="android:windowIsTranslucent">true</item>       
+    <item name="android:windowAnimationStyle">@android:style/Animation.Translucent</item>    
+  </style>
+</resources>

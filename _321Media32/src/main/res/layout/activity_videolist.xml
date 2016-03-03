@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout  
+        android:layout_width="fill_parent" android:layout_height="fill_parent"
+  		xmlns:android="http://schemas.android.com/apk/res/android"
+    >
+ 
+	<LinearLayout android:orientation="vertical" 
+	     android:layout_width="fill_parent" android:layout_height="fill_parent"
+	  >
+		   <RelativeLayout android:orientation="horizontal" android:background="@drawable/video_detail_bg_title" android:layout_width="fill_parent" android:layout_height="wrap_content">
+		        <ImageButton
+		            android:id="@id/btn_logo" 
+		            android:src="@drawable/selector_video_detail_btn_back" 
+		            android:layout_width="60dip" 
+		            android:layout_height="45dip" 
+		            android:background="@color/common_transparent_color" 
+		            android:layout_marginTop="5dip"
+		            android:layout_marginRight="10dip"
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true" /> 
+		        <TextView 
+		            android:textSize="20.0sp" 
+		            android:textColor="@color/common_orange_color" 
+		            android:id="@id/tv_title" 
+		            android:gravity="center_horizontal"
+		            android:layout_width="200dip" 
+		            android:layout_height="wrap_content" 
+		            android:layout_centerInParent="true" />
+		        
+		        <LinearLayout 
+		            android:layout_width="wrap_content" 
+		            android:layout_height="wrap_content"
+		          
+		            android:layout_marginTop="5dip" 
+		            android:layout_marginBottom="5dip"
+		            android:layout_centerVertical="true"
+		            android:layout_alignParentRight="true"
+		             android:background="@color/common_transparent_color"  
+		             android:orientation="horizontal"
+		            >
+		            <TextView 
+		                android:gravity="center_vertical"
+		                android:text="分类"
+		                android:layout_width="40dip" 
+		            	android:layout_height="40dip" 
+		            	android:textSize="16sp"
+		            	android:id="@+id/searchText" 
+		                />
+		             <ImageButton  
+		                android:layout_gravity="center_vertical"
+			            android:id="@+id/btn_search"  
+			            android:layout_width="wrap_content" 
+			            android:layout_height="wrap_content"  
+			            android:layout_marginRight="5dip"
+			            android:background="@color/common_transparent_color"  
+		             />
+		        </LinearLayout>
+		       
+		    </RelativeLayout>  
+			        <LinearLayout 
+			        android:layout_width="match_parent" 
+			        android:layout_height="fill_parent"
+			        android:orientation="vertical"
+			        android:id="@+id/horizontalSc"
+			        > 
+			       <GridView 
+			            android:fadingEdgeLength="0dp"
+		                android:layout_gravity="center_horizontal"
+		                android:id="@id/view_main_tab_channle_grid"
+		                 android:scrollbars="none" android:fadingEdge="none"  
+		                 android:layout_width="fill_parent"
+		                  android:layout_height="fill_parent"
+		                  android:layout_marginLeft="6dip"
+		                  android:layout_marginRight="6dip"
+		                 android:layout_marginBottom="15dip"
+		                 android:horizontalSpacing="8dip" 
+		                 android:verticalSpacing="5dip" android:numColumns="3" />
+			       
+		           </LinearLayout>
+		         
+	    </LinearLayout>
+	    <LinearLayout 
+	        android:id="@+id/progressLinear"
+	        android:layout_alignParentBottom="true"
+	       	android:layout_centerHorizontal="true"
+	        android:gravity="center" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="30.0dip" android:layout_marginTop="10.0dip">
+       		 <ProgressBar android:id="@id/progressbar_loading" android:layout_width="wrap_content" android:layout_height="wrap_content" style="?android:progressBarStyleSmall" />
+      		 <TextView android:textSize="15.0sp" 
+      		     android:textColor="@color/common_white_color"
+      		      android:gravity="clip_vertical" 
+      		      android:id="@id/load_more_textview" android:layout_width="wrap_content" 
+      		      android:layout_height="wrap_content" android:layout_marginLeft="5.0dip" 
+      		      android:text="@string/loading" />
+      </LinearLayout> 
+</RelativeLayout>

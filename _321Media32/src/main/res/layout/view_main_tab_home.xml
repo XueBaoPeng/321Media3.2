@@ -1,0 +1,384 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+     android:layout_height="fill_parent" 
+        android:layout_width="fill_parent" 
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <cn.hi321.android.media.widget.MainTitlebar android:id="@id/main_title" android:layout_width="fill_parent" android:layout_height="wrap_content" />
+    <!-- cn.hi321.android.media.widget.Elastic -->
+        <ScrollView
+        android:layout_height="fill_parent" 
+        android:layout_width="fill_parent" 
+        android:fadingEdgeLength="0dp" 
+        android:scrollbars="none" 
+        android:id="@+id/scroll"> 
+            <LinearLayout 
+            android:layout_height="fill_parent" 
+            android:layout_width="fill_parent" 
+            android:orientation="vertical" 
+            > 
+                <RelativeLayout 
+                    	android:background="@color/common_black_color"
+						android:orientation="vertical" 
+						android:id="@+id/rly_feature_container"
+						android:layout_width="fill_parent"
+                     	android:layout_height="160dip"
+                     	android:layout_weight="1.21"
+						>
+					 
+						<cn.hi321.android.media.widget.GalleryView  
+							android:id="@id/newImageGallery" 
+                     	    android:layout_width="match_parent"
+                     	    android:layout_height="fill_parent"
+                     	    android:layout_alignParentBottom="true" 
+                     	    android:fadingEdgeLength="0dip"
+                     	    android:gravity="center_vertical"
+                     	    android:unselectedAlpha="1" 
+							/>  
+						 
+						   <!-- 底部导航状态 -->
+                     	<RadioGroup
+                          android:id="@+id/mainRadioGallery"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content"
+                          android:layout_alignParentBottom="true"
+                          android:gravity="center_vertical|center_horizontal"
+                          android:orientation="horizontal"
+                          android:paddingLeft="15dip">
+                     	</RadioGroup>
+				</RelativeLayout> 
+				<RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【电影】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreMovie" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewMovie" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="310.0dip" 
+			      	    android:layout_marginLeft="@dimen/videodetail_padding_left" 
+			      	    android:layout_marginRight="@dimen/videodetail_padding_right" 
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="3" />
+		
+			  	
+			  	
+			  	<RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【电视剧】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreTv" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewTv" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="310.0dip" 
+			      	    android:layout_marginLeft="@dimen/videodetail_padding_left" 
+			      	    android:layout_marginRight="@dimen/videodetail_padding_right" 
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="3" />
+			  	
+			  	
+			  	
+			  		<RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【综艺】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreZy" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewZy" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="310.0dip" 
+			      	    android:layout_marginLeft="@dimen/videodetail_padding_left" 
+			      	    android:layout_marginRight="@dimen/videodetail_padding_right" 
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="3" />
+			  	
+			  	
+			  	
+			  		<RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【动漫】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreDm" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewDm" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="310.0dip" 
+			      	    android:layout_marginLeft="@dimen/videodetail_padding_left" 
+			      	    android:layout_marginRight="@dimen/videodetail_padding_right" 
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="3" /> 
+			      	    
+			  	<RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【美女】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreWoman" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewWoman" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="140.0dip" 
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="2" /> 
+			   <RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【音乐】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreMusic" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewMusic" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="140.0dip"  
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="2" /> 
+			      	    
+			  	 <RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【搞笑】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreAmuse" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewAmuse" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="140.0dip"  
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="2" /> 
+			      	    
+			  	
+			  	
+			  	 <RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【体育】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreSport" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewSport" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="140.0dip"  
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="2" /> 
+			      	    
+			  	
+			  	 <RelativeLayout 
+				    android:background="@drawable/bg_home_title" 
+				     android:gravity="center_vertical" 
+				    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content" 
+				 >
+				    <TextView 
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="【新闻】"  />
+				    
+				   <TextView 
+				        android:layout_alignParentRight="true"
+				        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"  
+				        android:textSize="@dimen/common_font_size_18" 
+	                    android:textColor="@color/common_white_color" 
+	                    android:gravity="center_vertical"
+	                    android:paddingLeft="@dimen/title_text_padding_left"
+	                    android:text="更多" 
+	                    android:id="@+id/recommendMoreInfo" />
+				    
+				</RelativeLayout>  
+			  	<GridView 
+			      	    android:id="@+id/gridviewInfo" 
+			      	    android:layout_width="fill_parent" 
+			      	    android:layout_height="140.0dip"  
+			      	    android:horizontalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:verticalSpacing="@dimen/videodetail_gridview_padding" 
+			      	    android:numColumns="2" /> 
+			 
+            </LinearLayout>
+         </ScrollView> 
+    </LinearLayout>  
+</RelativeLayout>

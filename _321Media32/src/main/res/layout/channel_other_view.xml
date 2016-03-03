@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="wrap_content" android:layout_height="wrap_content">
+  
+   <!-- bg_image_whileground 
+      
+             android:layout_marginTop="2dip"
+             
+             android:layout_marginBottom="2dip" -->
+   <RelativeLayout  
+        android:id="@+id/lin" 
+        android:scaleType="fitXY" 
+        android:layout_height="100dip"
+	    android:layout_width="fill_parent" >
+         <ImageView   
+             android:layout_marginRight="3dip"
+             android:layout_marginLeft="3dip"
+             android:layout_centerInParent="true"
+             android:id="@+id/imageView1"  
+         	 android:scaleType="fitXY"  
+	         android:layout_height="fill_parent"
+	         android:layout_width="fill_parent"></ImageView>  
+	     <TextView 
+	        android:id="@+id/scoreId"
+	        android:textSize="14sp"
+	        android:textColor="@color/white"
+	        android:layout_height="wrap_content"
+	        android:layout_width="wrap_content" 
+	        android:layout_alignParentBottom="true"
+	        android:layout_marginBottom="5dip"
+	        android:singleLine="true"
+	        android:layout_marginLeft="5dip"/>
+	 </RelativeLayout> 
+	   <TextView 
+	       android:textColor="@color/white"
+	        android:layout_height="wrap_content"
+	   	     android:layout_width="175dip" 
+	   	     android:id="@+id/name"
+	   	     android:layout_below="@+id/lin" 
+	   	     android:gravity="center_horizontal"
+	   	     android:lines="2"
+	        />
+</RelativeLayout>

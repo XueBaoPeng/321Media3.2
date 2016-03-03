@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="common_gray_color">#ffd6d6d6</color>
+    <color name="indicator_color">#ffff6d00</color>
+    <color name="common_white_color">#ffffffff</color>
+    <color name="common_black_color">#ff383838</color>
+    <color name="common_blue_color">#ff44a9ff</color>
+    <color name="home_banner_checked_color">#ffea0107</color>
+    <color name="home_banner_default_color">#ffffffff</color>
+    <color name="common_orange_color">#ffff6d00</color>
+    <color name="common_transparent_color">#00000000</color>
+    <color name="listview_diver_filter_color">#ff000000</color>
+    <color name="listview_diver_gray">#ffd6d6d6</color>
+    <color name="search_pagertabstrip_color">#ff212121</color>
+    
+    <color name="black">#FF000000</color>
+    <color name="play_time_color">#ffe4e0ee</color>
+    <color name="white">#FFFFFFFF</color>
+</resources>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"  
+	android:layout_width="fill_parent" android:layout_height="wrap_content"> 
+	<Button    
+	    android:layout_marginTop="5dip" 
+		android:id="@+id/button"  
+		android:gravity="left|center_vertical"
+		android:layout_width="350dip"  
+		android:textColor="@color/common_white_color"
+		android:textSize="14sp"   
+		android:singleLine="true"
+		android:background="@drawable/listview_item_button"
+		android:layout_height="45dip"></Button> 
+</RelativeLayout>

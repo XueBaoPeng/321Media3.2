@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<RelativeLayout 
+      xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent" 
+	     android:layout_height="fill_parent"
+	     android:background="@drawable/bg_fravorite_record"
+    >
+	<LinearLayout 
+	    android:orientation="vertical"
+	    android:id="@+id/layout_search_bar" 
+	    android:background="@drawable/bg_search_title"
+	    android:paddingLeft="10.0dip" 
+	    android:paddingTop="5.0dip" 
+	    android:paddingRight="10.0dip" 
+	    android:paddingBottom="5.0dip"
+	     android:layout_width="fill_parent" 
+	     android:layout_height="85.0dip"
+	  >
+	 	 <ImageView   
+	 	     android:layout_width="wrap_content" 
+	 	     android:layout_height="wrap_content" 
+	 	     android:src="@drawable/bg_btn_logo" 
+	 	     android:layout_gravity="center" />
+	     <FrameLayout 
+	          android:layout_below="@+id/titlebar"
+	          android:gravity="center_vertical" 
+	          android:layout_width="fill_parent"
+	          android:layout_height="wrap_content"
+	         > 
+	          <EditText   
+	        		android:textSize="14.0sp"  
+	        		android:layout_gravity="center_vertical" 
+	        		android:id="@+id/edit_search" 
+	        		android:background="@drawable/bg_search_et" 
+	        		android:paddingLeft="24.0dip" 
+	        		android:paddingTop="5.0dip" 
+	        		android:paddingBottom="5.0dip" 
+	        		android:layout_width="fill_parent" 
+	        		android:layout_height="wrap_content" 
+	        		android:hint="更多节目搜索" 
+	        		android:singleLine="true" />
+	   			 <ImageView 
+	   			     android:id="@+id/searchButton"
+	   			     android:layout_gravity="right|center"  
+	   			     android:layout_width="wrap_content" 
+	   			     android:layout_height="wrap_content" 
+	   			     android:layout_marginRight="15dip"
+	   			     android:src="@drawable/selector_titlebar_btn_search" />
+	 
+	     </FrameLayout>
+	   	
+	</LinearLayout>
+	  <ListView   
+        android:layout_below="@+id/layout_search_bar"
+        android:id="@id/view_main_tab_my_listview"  
+        android:layout_width="fill_parent" 
+        android:layout_height="fill_parent" 
+        android:cacheColorHint="@android:color/transparent" 
+        android:divider="@color/common_transparent_color" 
+        android:focusable="true"
+		android:focusableInTouchMode="true"
+        android:dividerHeight="1.0dip" />  
+ 		 	 <ImageView  
+	 	     android:id="@id/iamge" 
+	 	     android:layout_centerInParent="true"
+	 	     android:layout_width="wrap_content" 
+	 	     android:layout_height="wrap_content" 
+	 	     android:src="@drawable/bg_logo" 
+	 	     android:layout_gravity="center" />
+ </RelativeLayout>

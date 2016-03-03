@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/videolayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selector_bg_listitem_le" 
+    android:descendantFocusability="blocksDescendants"
+    android:gravity="center_vertical" >
+  <!--  android:background="@drawable/group_bg" -->
+    <RelativeLayout
+        android:id="@+id/rl_itemname"
+        android:layout_width="fill_parent"
+        android:layout_height="53dp"
+        android:layout_marginRight="30dip" >
+
+        <TextView
+            android:id="@+id/lblVideoName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dip"
+            android:ellipsize="end"
+            android:maxEms="12"
+            android:gravity="bottom"
+            android:singleLine="true"
+            android:text="北京青年"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/lblHistoryDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBottom="@+id/lblVideoName"
+            android:layout_marginBottom="0.5dp"
+            android:layout_marginLeft="6dp"
+            android:layout_toRightOf="@id/lblVideoName"
+            android:lines="1"
+            android:text="3小时前"
+            android:textColor="#999999"
+            android:textSize="13sp" />
+    </RelativeLayout>
+
+    <ImageView 
+        android:id="@+id/btnDelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:padding="15dp"
+        android:layout_centerVertical="true"
+        android:src="@drawable/itme_history_meadia_iv" />
+
+</RelativeLayout>
